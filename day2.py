@@ -10,6 +10,7 @@
 # cook your dish here
 t = int(input())
 
-(x,y) = map(int, input().split(' '))
+for i in range(t):
+    (x,y) = map(int, input().split(' '))
 
-print(x*y)
+    print(x*y)
