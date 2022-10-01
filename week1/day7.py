@@ -12,13 +12,15 @@
 # Output
 # For each input output "wins" if the number is a palindrome and "loses" if not, in a new line.
 
-n = int(input())
-# a=
-r = str(n)
-r = list(r)
-e=r.reverse()
-print(r)
-for i in r:
-    print(i, end="")
-    a=i
-print(a)
+# cook your dish here
+t = int(input())
+
+for i in range(t):
+    n = int(input())
+    m = str(n)
+    w = m[::-1]
+    w = int(w)
+    if w == n:
+        print("wins")
+    else:
+        print("loses")
